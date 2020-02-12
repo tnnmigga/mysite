@@ -2,5 +2,5 @@
 
 {% for i in items.all %}
     {{ i.description }}
+    <img src="{{ i.image.url }}" alt="">
 {% endfor %}
-    
